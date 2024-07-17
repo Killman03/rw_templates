@@ -1,0 +1,10 @@
+.product-main{
+    text-align: center;
+    padding: 60px 0 80px;
+}
+
+.product-main__box {
+}
+.product-main__title {
+    font-size: 35px;
+}
