@@ -1,10 +1,85 @@
-.product-main{
-    text-align: center;
+.product{
+ 
     padding: 60px 0 80px;
 }
 
-.product-main__box {
-}
-.product-main__title {
+.product__title {
+    text-align: center;
     font-size: 35px;
+}
+.product-wrapper {
+    display: grid;
+    padding: 60px 0;
+    gap: 100px;
+    grid-template-columns: 2fr 2fr;
+}
+.product-category {
+}
+.product-card {
+}
+.product-desc {
+}
+.product-desc__title {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-desc__text{
+    font-size: 16px;
+}
+.product-desc__tel {
+    margin: 20px 0;
+    
+    font-size: 18px;
+    text-align: center;
+}
+.product-desc__num-text {
+        font-size: 18px;
+
+    font-weight: 600;
+}
+.product-desc__whatsup {
+    color: red;
+    font-weight: 500;
+}
+.product-address {
+    font-size: 16px;
+    text-align: center;
+}
+.product-address__title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-address__street {
+}
+.product-price {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+}
+.product-price__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.product-price__money {
+    font-weight: 500;
+    font-size: 30px;
+ 
+}
+.product-price__btn {
+    background-color: #EA6D40;
+    padding: 20px 60px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.product-price__btn:hover {
+    color: #fff;
 }
